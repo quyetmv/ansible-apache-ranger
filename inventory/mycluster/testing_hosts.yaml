@@ -1,0 +1,12 @@
+all:
+  hosts:
+    dev-namenode:
+      ansible_host: 10.10.10.10
+      rack: /fnx/rack01
+
+
+ranger_nodes:
+  children:
+    ranger_admin:
+      hosts:
+        dev-namenode:

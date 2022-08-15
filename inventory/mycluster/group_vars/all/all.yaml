@@ -1,0 +1,10 @@
+---
+app_install_root_dir: "/opt/{{ version }}"
+soft_link: "/optdatalandfill-"
+data_dir: /data01
+security_mode: false
+hadoop_group: etl
+timezone: Asia/Ho_Chi_Minh
+ranger_version: 2.1.0
+mysql_connector_url: "{{repo_url}}/mysql-connector-java-{{mysql_connector_version}}-bin.jar"
+mysql_connector_version: 5.1.46
